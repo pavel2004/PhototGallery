@@ -1,8 +1,11 @@
 package main
 
-func main() {
-	// TODO: init config
+import (
+	"PhotoGallery/internal/config"
+)
 
+func main() {
+	cfg := config.MustConfig()
 	// TODO: init logger
 
 	// TODO: init storage
